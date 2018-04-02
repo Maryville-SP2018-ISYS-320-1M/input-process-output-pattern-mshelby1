@@ -15,7 +15,7 @@ public class P4_ScalableBox {
 	public static void drawBoxCap() {
 		System.out.print("+");
 		
-		for( int capDashIndex = 1; capDashIndex <= 8 - 2; capDashIndex++ ) {
+		for( int capDashIndex = 1; capDashIndex <= 6; capDashIndex++ ) {
 			System.out.print("-");
 		}
 		
@@ -23,7 +23,7 @@ public class P4_ScalableBox {
 	}
 	
 	public static void drawBoxInsides() {
-		for( int insideRowIndex = 1; insideRowIndex <= 10 - 2; insideRowIndex++ ) {
+		for( int insideRowIndex = 1; insideRowIndex <= 8; insideRowIndex++ ) {
 			drawBoxInsideLine();
 		}
 	}
@@ -31,7 +31,7 @@ public class P4_ScalableBox {
 	public static void drawBoxInsideLine() {
 		System.out.print("|");
 		
-		for( int insideRowIndex = 1; insideRowIndex <= 8 - 2; insideRowIndex++ ) {
+		for( int insideRowIndex = 1; insideRowIndex <= 6; insideRowIndex++ ) {
 			System.out.print(".");
 		}
 		
